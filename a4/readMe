@@ -1,0 +1,32 @@
+Program:        Calendar
+
+Author:         Roy Xu
+
+Version:        1.4.0
+                Server was used for user to upload local events
+
+Purpose:        The progam is used to manage users' events in one or more calendars.
+
+Sources Files:  main.cc
+                Time.cc
+                Date.cc
+                Event.cc
+                Calendar.cc
+                Control.cc
+                View.cc    
+
+Head Files:     Time.h
+                Date.h
+                Event.h
+                Calendar.h
+                Control.h
+                View.h
+                List.h
+
+Data Files:     in.txt
+
+Compilation:    Type "make" in terminal
+
+Lunch&Operation: 
+                Type "./cal" under the derectory of calendar
+                Type "./cal < in.txt" to test by using input file
